@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started With Patternfly (React)
+
+This repository serves as a quick getting started demo with Patternfly, using React. It contains a very basic 
+react page broken down into several components.
+
+You can view the rendered page [here](https://patternfly-getting-started.netlify.com).
 
 ## Available Scripts
 
