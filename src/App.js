@@ -27,16 +27,14 @@ class Layout extends Component {
     );
 
     return (
-      <React.Fragment>
-        <Page header={Header} >
-          <PageSection variant={PageSectionVariants.light}>
-            <LimitSummary />
-          </PageSection>
-          <PageSection variant={PageSectionVariants.light}>
-            <UsageSummary />
-          </PageSection>
-        </Page>
-      </React.Fragment>
+      <Page header={Header} >
+        <PageSection variant={PageSectionVariants.light}>
+          <LimitSummary />
+        </PageSection>
+        <PageSection variant={PageSectionVariants.light}>
+          <UsageSummary />
+        </PageSection>
+      </Page>
     )
   }
 }
